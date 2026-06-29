@@ -1,0 +1,84 @@
+canonical_identifier: bkk:krp/KR2g0002/v1
+canonical_location: https://kanripo.org/bkk/KR2g0002/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 東家雜記
+  date: '2015-08-24 22:34:07.516607'
+  source:
+    repository: kanripo
+    path: KR2g0002
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR2g0002_000.yaml, hash: 'sha256:f3edeab8d91a804584bba81863c12d562e985f26ad06e8377ddbbd6070e04503'}
+  - {seq: 1, filename: KR2g0002_001.yaml, hash: 'sha256:694c53966ea79f45b831c7689577cca4b029f282eab3605becd899ba391284bd'}
+  - {seq: 2, filename: KR2g0002_002.yaml, hash: 'sha256:558feefdd6cf3222fc0ffc10336502c22a7a401cbc644c92aca4df0927556750'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2g0002_000.markers.yaml, hash: 'sha256:db12306f2279f506590771395b8be46b531d49aa4f27b857e0c963de5f4f3608'}
+  - {seq: 1, role: markers, filename: assets/KR2g0002_001.markers.yaml, hash: 'sha256:c5401800520e7b9c3359462b572ff663d62b5d390b654194918d3c34a459fd32'}
+  - {seq: 2, role: markers, filename: assets/KR2g0002_002.markers.yaml, hash: 'sha256:4b5ec557d72c8f13e75652c99c082ceaf7426233d23bb2021de74d580793a42c'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2g0002_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 648
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2g0002_WYG_000-4a
+    span:
+    - body
+    - 648
+    - 895
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2g0002_WYG_000-5a
+    span:
+    - body
+    - 895
+    - 2693
+  label: 孔子生年月日考異
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2g0002_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 10439
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2g0002_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 5826
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:5b24e9c8005d49a2fd266aebee3d36e886811868cbedd71b08d98b78afbf38a9
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
